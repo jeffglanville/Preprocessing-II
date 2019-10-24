@@ -168,6 +168,15 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+a {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +187,15 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header h2 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+header img {
+  width: 60%;
+  height: 25vh;
 }
 .home .content-section {
   margin: 30px 0;
